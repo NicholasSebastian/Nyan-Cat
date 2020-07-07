@@ -1,0 +1,19 @@
+{
+  "name": "nyan-cat",
+  "version": "1.0.0",
+  "description": "Nyan-Cat clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicholasSebastian/Nyan-Cat.git"
+  },
+  "author": "Nicholas Sebastian Hendrata <nicholashendrata110900@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/NicholasSebastian/Nyan-Cat/issues"
+  },
+  "homepage": "https://github.com/NicholasSebastian/Nyan-Cat#readme"
+}
