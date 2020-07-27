@@ -1,6 +1,6 @@
 import { Start, Update, Animate, Render } from "./game";
 
-const canvas = document.getElementById("canvas");
+export const canvas = document.getElementById("canvas");
 export const context = canvas.getContext("2d");
 
 const aspectRatio = { width: 16, height: 9 };
@@ -32,5 +32,6 @@ function animate() {
 }
 
 function Clear() {
-  context.clearRect(0, 0, canvas.width, canvas.height);
+  context.fillStyle = "#036";
+  context.fillRect(0, 0, canvas.width, canvas.height);
 }
